@@ -32,8 +32,7 @@ body{
 .main-wrapper{
     max-width: 1340px;
     margin: auto;
-    /* border: 2px solid; */
-    /* height: 100vh; */
+    height: 100vh;
     background-color: var(--White);
     position: relative;
     display: flex;
@@ -71,12 +70,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid orange; */
     width: 70%;
     margin: auto;
 }
 .phone-wrapper{
-    /* border: 1px solid; */
     padding: 1rem;
     background: white;
     position: relative;
@@ -86,7 +83,6 @@ body{
     box-shadow: 0rem 0rem 1rem 0.1rem var(--Desaturated-Dark-Violet)
 }
 .phone-wrapper .phone-screen{
-    /* border: 1px solid blue; */
     background: var(--Light-Grayish-Violet);
     position: relative;
     border-radius: 2rem;
@@ -164,7 +160,6 @@ body{
 .phone-screen .col2 .part1 p,
 .phone-screen .col2 .part2 p,
 .phone-screen .col2 .part3 p:first-child{
-    /* border: 1px solid; */
     width: 63%;
     background: rgba(198, 202, 205, 0.245);
     color: var(--Light-Magenta);
@@ -239,7 +234,6 @@ body{
     color: var(--Grayish-Blue);
 }
 .phone-screen .col3{
-    /* border: 1px solid orange; */
     display: flex;
     justify-content: space-between;
     padding: 0.6rem;
@@ -262,7 +256,6 @@ body{
 
 /* text wrapper */
 .content-wrapper .text-wrapper{
-    /* border: 1px solid; */
     width: 85%;
     padding-left: 11rem;
 }
