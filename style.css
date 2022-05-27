@@ -173,6 +173,7 @@ body{
     border-bottom-left-radius: 0.4rem;
     line-height: 1.7rem;
     box-shadow: 0rem 0rem 1.1rem 0.1rem var(--Grayish-Blue);
+    display: none;
 }
 .phone-screen .col2 .part2 {
     display: flex;

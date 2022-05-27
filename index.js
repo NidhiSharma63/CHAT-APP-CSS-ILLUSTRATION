@@ -18,6 +18,7 @@ let currentPharse = [];
 
 
 function loop(){
+    chat[i].style.display = 'block';
     chat[i].innerHTML=currentPharse.join("");
     if(i<chatArray.length){
         if(j<chatArray[i].length){
