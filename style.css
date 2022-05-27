@@ -156,6 +156,7 @@ body{
 .phone-screen .col2{
     padding: 0rem 1rem;
     margin-top: -2rem;
+    height: 40rem;
 }
 .phone-screen .col2 .part1 p,
 .phone-screen .col2 .part2 p,
