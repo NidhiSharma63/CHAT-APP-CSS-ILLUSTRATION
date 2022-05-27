@@ -9,9 +9,6 @@ const chatArray = [
 const img1 = document.querySelector('.img1');
 const img2 = document.querySelector('.img2');
 const img3 = document.querySelector('.img3');
-img1.style.display = 'none';
-img2.style.display = 'none';
-img3.style.display = 'none'
 
 const chat = document.querySelectorAll('.chat');
 let i = 0;

@@ -190,6 +190,7 @@ body{
 .phone-screen .col2 .part2 .img-container .img2,
 .phone-screen .col2 .part2 .img-container .img3{
     width: 47px;
+    display: none;
 }
 .phone-screen .col2 .part2 .img-container .img2{
     margin: 0rem 1rem;
