@@ -9,11 +9,14 @@ const chatArray = [
 const img1 = document.querySelector('.img1');
 const img2 = document.querySelector('.img2');
 const img3 = document.querySelector('.img3');
+const walkPrice = document.querySelector('.walk-price')
 
 const chat = document.querySelectorAll('.chat');
 let i = 0;
 let j = 0;
 let currentPharse = [];
+
+
 function loop(){
     chat[i].innerHTML=currentPharse.join("");
     if(i<chatArray.length){
@@ -29,11 +32,34 @@ function loop(){
                     img1.style.display = 'flex';
                     img2.style.display = 'flex';
                     img3.style.display = 'flex';
+                };
+                console.log(i)
+                if(i===4){
+                   setTimeout(() => {
+                    walkPrice.innerHTML+=
+                    `
+                    <div class="part3-1">
+                    <div class="left">
+                      <div class="circle"></div>
+                      <p>30 minute walk</p>
+                    </div>
+                    <p>$29</p>
+                  </div>
+                  <!-- *************** -->
+                  <div class="part3-1">
+                    <div class="left">
+                      <div class="circle"></div>
+                      <p>1 hour walk</p>
+                    </div>
+                    <p>$49</p>
+                  </div>
+                    `;
+                   }, 7000);
                 }
                 j=0;
             }
         };
-        setTimeout(loop, 10);
+        setTimeout(loop, 70);
     };
 };
 
